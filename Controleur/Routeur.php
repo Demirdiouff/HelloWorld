@@ -5,7 +5,7 @@
 require_once 'Controleur/ControleurHelloWorld.php';
 require_once 'Vue/vueHelloWorld.php';
 
-class Routeur {
+class Routeur { 
     
     private $ctrlAccueil;
     

@@ -4,7 +4,7 @@ class VueHelloWorld {
     
     private $fichier; 
     
-    private $nom;
+    private $nom; 
     
     public function __construct($action) 
     {

@@ -5,7 +5,7 @@
 <head>
 <body>
 	<h1>Bonjour à tous</h1>
-	<?php Debug::printr($vue); ?>
+	<?php Debug::printr($titre); ?>
 	<h3> Bienvenue à tous également </h3>
 </body>
 </head>

@@ -17,6 +17,6 @@ class ControleurHelloWorld {
     {
         $titre = $this->titre->getTitre();
         $vue = new vueHelloWorld("Accueil");
-        $vue->generer(array('titre' => $titre));
+        $vue->generer(array('titre' => $titre)); 
     }
 }

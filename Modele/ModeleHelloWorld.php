@@ -8,7 +8,7 @@ class ModeleHelloWorld {
     
     public function getBdd() 
     {
-        if ($this->bdd == null) {
+        if ($this->bdd == null) { 
             // Création de la connexion
             $this->bdd = new PDO('mysql:host=localhost;dbname=HelloWorld;charset=utf8', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));   
         }

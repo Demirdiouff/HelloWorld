@@ -5,7 +5,7 @@
 // qui lui derrière est le cerveau principal, selon le choix du visiteur
 // il ouvrira la page en question 
 
-require 'Controleur/Routeur.php';
+require 'Controleur/Routeur.php'; 
 
 $routeur = new Routeur();
 $routeur->routerRequete();
